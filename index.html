@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="/Rock paper Scisrors/styels.css">
+</head>
+<body>
+    <div class="background-layer layer1"></div>
+    <div class="container">
+        <h1 id="game-title">Rock Paper Scissors</h1>
+        <div class="game">
+            <div class="player">
+                <h2>You</h2>
+                <div id="player-choice" class="choice"></div>
+            </div>
+            <div class="player">
+                <h2>Computer</h2>
+                <div id="computer-choice" class="choice"></div>
+            </div>
+        </div>
+        <div id="score">
+            <div id="user-score">Score: 0</div>
+            <div id="computer-score">Score: 0</div>
+        </div>
+        <h2 id="result">Start Play</h2>
+        <div class="choices">
+            <button class="choice-button" id="rock">🪨</button>
+            <button class="choice-button" id="paper">📄</button>
+            <button class="choice-button" id="scissors">✂️</button>
+            <button class="choice-button" id="lizard" style="display: none;">🦎</button>
+            <button class="choice-button" id="spock" style="display: none;">🖖</button>
+            <button class="choice-button" id="fire" style="display: none;">🔥</button>
+            <button class="choice-button" id="water" style="display: none;">💧</button>
+        </div>
+        <button id="reset-button">Reset</button>
+    </div>
+    <script src="/Rock paper Scisrors/scripts.js"></script>
+</body>
+</html>
